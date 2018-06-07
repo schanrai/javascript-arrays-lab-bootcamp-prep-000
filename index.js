@@ -1,4 +1,6 @@
-const kittens =["Milo", "Otis", "Garfield"];
+
+
+const newKittens =["Milo", "Otis", "Garfield"];
 //const app = "I don't do much.";
 
 function initKittens(){

@@ -3,7 +3,6 @@ const kittens =["Milo", "Otis", "Garfield"];
 
 function initKittens(){
 var kittens =["Milo", "Otis", "Garfield"];
-
 }
 
 function destructivelyAppendKitten(name){

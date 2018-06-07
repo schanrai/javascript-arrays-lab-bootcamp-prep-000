@@ -11,3 +11,7 @@ function destructivelyPrependKitten(name){
   return kittens;
 }
 
+function destructivelyRemoveElementFromEndOfArray(array){
++    array.pop();
++    return array;
++  }

@@ -35,6 +35,6 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitchen(name){
-  
+  return
 }
 

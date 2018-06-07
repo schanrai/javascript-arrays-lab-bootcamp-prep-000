@@ -24,13 +24,9 @@ function destructivelyPrependKitten(name){
 kittens =[];
 kittens =["Milo", "Otis", "Garfield"];
 
-/*function destructivelyRemoveLastKitten(kittens){
+function destructivelyRemoveLastKitten(){
   kittens.pop();
   return kittens;
-}*/
-
-array=[1,2,3];
-function destructivelyRemoveLastKitten(){
-  array.pop();
-  return array;
 }
+
+

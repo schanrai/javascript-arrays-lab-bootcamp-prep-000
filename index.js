@@ -29,4 +29,9 @@ function destructivelyRemoveLastKitten(){
 kittens =[];
 kittens =["Milo", "Otis", "Garfield"];
 
+function destructivelyRemoveFirstKitten(){
+  kittens.pop();
+  return kittens;
+}
+
 

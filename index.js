@@ -22,7 +22,6 @@ kittens =["Milo", "Otis", "Garfield"];
 
 function destructivelyRemoveLastKitten(){
   kittens.pop();
-  return kittens;
 }
 
 

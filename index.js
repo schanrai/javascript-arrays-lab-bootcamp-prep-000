@@ -39,7 +39,7 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  return[name];
+  return[name, kitten...];
 }
 
 

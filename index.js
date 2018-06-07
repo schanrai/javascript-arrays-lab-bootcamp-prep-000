@@ -20,11 +20,11 @@ function destructivelyPrependKitten(name){
 kittens =[];
 kittens =["Milo", "Otis", "Garfield"];
 
-
 function destructivelyRemoveLastKitten(){
   kittens.pop();
   return kittens;
 }
+
 
 kittens =[];
 kittens =["Milo", "Otis", "Garfield"];
@@ -34,4 +34,7 @@ function destructivelyRemoveFirstKitten(){
   return kittens;
 }
 
+function appendKitchen(name){
+  
+}
 

@@ -30,7 +30,7 @@ kittens =["Milo", "Otis", "Garfield"];
 }*/
 
 array=[1,2,3];
-function destructivelyRemoveLastKitten(array){
+function destructivelyRemoveLastKitten(){
   array.pop();
   return array;
 }

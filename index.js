@@ -1,24 +1,24 @@
 
-
-const newKittens =["Milo", "Otis", "Garfield"];
-//const app = "I don't do much.";
-
-function initKittens(){
 var kittens =["Milo", "Otis", "Garfield"];
-}
+//const app = "I don't do much.";
+const initKittens =["Milo", "Otis", "Garfield"];
+
+
+//function initKittens(){
+//var kittens =["Milo", "Otis", "Garfield"];
+//}
 
 function destructivelyAppendKitten(name){
   kittens.push(name);
   return kittens;
 }
 
-initKittens();
+initKittens = kittens;
 
 function destructivelyPrependKitten(name){
   kittens.unshift(name);
   return kittens;
 }
-
 
 
 function destructivelyRemoveLastKitten(kittens){

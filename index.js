@@ -14,12 +14,12 @@ function destructivelyAppendKitten(name){
 }
 
 
-//function destructivelyPrependKitten(name){
+/*function destructivelyPrependKitten(name){
   kittens.unshift(name);
   return kittens;
-}//
+}*/
 
-kittens = [];
+kittens =[];
 var kittens =["Milo", "Otis", "Garfield"];
 
 function destructivelyRemoveLastKitten(kittens){

@@ -13,7 +13,6 @@ function destructivelyAppendKitten(name){
   return kittens;
 }
 
-initKittens = kittens;
 
 function destructivelyPrependKitten(name){
   kittens.unshift(name);

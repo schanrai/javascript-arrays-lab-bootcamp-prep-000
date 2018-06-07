@@ -30,7 +30,7 @@ kittens =[];
 kittens =["Milo", "Otis", "Garfield"];
 
 function destructivelyRemoveFirstKitten(){
-  kittens.pop();
+  kittens.shift();
   return kittens;
 }
 

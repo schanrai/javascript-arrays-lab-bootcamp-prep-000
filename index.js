@@ -13,6 +13,8 @@ function destructivelyAppendKitten(name){
   return kittens;
 }
 
+kittens =[];
+kittens =["Milo", "Otis", "Garfield"];
 
 function destructivelyPrependKitten(name){
   kittens.unshift(name);
@@ -20,7 +22,7 @@ function destructivelyPrependKitten(name){
 }
 
 kittens =[];
-var kittens =["Milo", "Otis", "Garfield"];
+kittens =["Milo", "Otis", "Garfield"];
 
 function destructivelyRemoveLastKitten(kittens){
   kittens.pop();

@@ -26,4 +26,7 @@ function destructivelyRemoveLastKitten(){
   return kittens;
 }
 
+kittens =[];
+kittens =["Milo", "Otis", "Garfield"];
+
 
